@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="11" failures="2" name="integration.sparkprocess.PageRoutingsExistForAppsTest" time="0.104" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\TestApps\TestingApp-master\java"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\TestApps\TestingApp-master\java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\danie\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\danie\AppData\Local\Microsoft\WindowsApps;C:\Users\danie\AppData\Roaming\npm;C:\Program Files\JetBrains\WebStorm 2019.3.1\bin;;C:\Program Files\apache-maven-3.6.3\bin;C:\webdriverio-test\node_modules\.bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\danie"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="danie"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="integration.sparkprocess.PageRoutingsExistForAppsTest" name="canAccessiframeSearch" time="0.007"/>
+  <testcase classname="integration.sparkprocess.PageRoutingsExistForAppsTest" name="appsIndex" time="0.009"/>
+  <testcase classname="integration.sparkprocess.PageRoutingsExistForAppsTest" name="testWith" time="0.012"/>
+  <testcase classname="integration.sparkprocess.PageRoutingsExistForAppsTest" name="responsiveTestTool" time="0.032"/>
+  <testcase classname="integration.sparkprocess.PageRoutingsExistForAppsTest" name="canAccess7Charval" time="0.003">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at integration.sparkprocess.PageRoutingsExistForAppsTest.canAccess7Charval(PageRoutingsExistForAppsTest.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>200
+&lt;html&gt;&lt;head&gt;    &lt;!--meta_data--&gt;    &lt;!--css_styles--&gt;&lt;script language=&quot;JavaScript&quot; src=&quot;validationfunctionso.js&quot;&gt;&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;!--page_header--&gt;&lt;h1&gt;Please Enter Your 7 character value&lt;/h1&gt;&lt;p&gt;Only A-Z, a-z, 0-9, and * are valid characters.&lt;/p&gt;&lt;form name=&quot;charsform&quot;&gt;&lt;p&gt;Your 7 digits: &lt;input type=&quot;text&quot; name=&quot;characters&quot;&gt;  &lt;input type=&quot;text&quot; name=&quot;validation_message&quot; value=&quot;&quot; onFocus=&quot;this.blur()&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;input type=&quot;button&quot; name=&quot;validate&quot; value=&quot;Check Input&quot; onclick=&quot;processValidation(1);&quot;&gt;&lt;/p&gt;&lt;/form&gt;&lt;!--page_footer--&gt;&lt;/body&gt;&lt;/html&gt;
+200
+&lt;html&gt;&lt;head&gt;    &lt;!--meta_data--&gt;    &lt;!--css_styles--&gt;&lt;script language=&quot;JavaScript&quot; src=&quot;validationfunctionso.js&quot;&gt;&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;!--page_header--&gt;&lt;h1&gt;Please Enter Your 7 character value&lt;/h1&gt;&lt;p&gt;Only A-Z, a-z, 0-9, and * are valid characters.&lt;/p&gt;&lt;form name=&quot;charsform&quot;&gt;&lt;p&gt;Your 7 digits: &lt;input type=&quot;text&quot; name=&quot;characters&quot;&gt;  &lt;input type=&quot;text&quot; name=&quot;validation_message&quot; value=&quot;&quot; onFocus=&quot;this.blur()&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;input type=&quot;button&quot; name=&quot;validate&quot; value=&quot;Check Input&quot; onclick=&quot;processValidation(1);&quot;&gt;&lt;/p&gt;&lt;/form&gt;&lt;!--page_footer--&gt;&lt;/body&gt;&lt;/html&gt;
+200
+
+</system-out>
+  </testcase>
+  <testcase classname="integration.sparkprocess.PageRoutingsExistForAppsTest" name="dearEvilTesterPage" time="0.008"/>
+  <testcase classname="integration.sparkprocess.PageRoutingsExistForAppsTest" name="contactPage" time="0.002"/>
+  <testcase classname="integration.sparkprocess.PageRoutingsExistForAppsTest" name="canAccessAlert" time="0.002"/>
+  <testcase classname="integration.sparkprocess.PageRoutingsExistForAppsTest" name="sloganizer" time="0.023"/>
+  <testcase classname="integration.sparkprocess.PageRoutingsExistForAppsTest" name="canAccessBookmarkletsPage" time="0.001"/>
+  <testcase classname="integration.sparkprocess.PageRoutingsExistForAppsTest" name="canAccessEPrimerPage" time="0.005">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at integration.sparkprocess.PageRoutingsExistForAppsTest.canAccessEPrimerPage(PageRoutingsExistForAppsTest.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>200
+&lt;html&gt;&lt;head&gt;    &lt;!--meta_data--&gt;    &lt;!--css_styles--&gt;    &lt;title&gt;Eprimer - e-prime checking tool&lt;/title&gt;    &lt;link href=&quot;eprimer.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;    &lt;script src=&quot;eprime.js&quot;&gt;&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;!--page_header--&gt;&lt;div class=&apos;listpageintro&apos;&gt;    &lt;h1&gt;E-Primer an e-prime checking tool&lt;/h1&gt;    &lt;p&gt;Do you want to write without using the verb &quot;to be&quot;?&lt;/p&gt;    &lt;p&gt;Do you want to master &lt;a target=&quot;_blank&quot; rel=&quot;nofollow&quot; href=&quot;http://en.wikipedia.org/wiki/E-Prime&quot;&gt;e-prime&lt;/a&gt;?&lt;/p&gt;    &lt;p&gt;Use our online tool to check your writing.&lt;/p&gt;&lt;/div&gt;&lt;div id=&quot;app&quot;&gt;    &lt;div id=&quot;statistics&quot;&gt;        &lt;ul&gt;            &lt;li&gt; Word Count: &lt;span id=&quot;wordCount&quot;&gt;&lt;/span&gt;&lt;/li&gt;            &lt;li&gt; Discouraged Words: &lt;span id=&quot;discouragedWordCount&quot;&gt;&lt;/span&gt;&lt;/li&gt;            &lt;li&gt; Possible Violations: &lt;span id=&quot;possibleViolationCount&quot;&gt;&lt;/span&gt;&lt;/li&gt;        &lt;/ul&gt;    &lt;/div&gt;    &lt;div id=&quot;eprimeoutput&quot; class=&quot;eprime_text&quot;&gt;&lt;/div&gt;    &lt;label for=&quot;inputtext&quot;&gt;Text: &lt;/label&gt;    &lt;br/&gt;    &lt;textarea id=&quot;inputtext&quot; rows=&quot;5&quot; cols=&quot;60&quot;&gt;&lt;/textarea&gt;    &lt;br/&gt;    &lt;button id=&quot;CheckForEPrimeButton&quot; onclick=&apos;processInputText();&apos;&gt;Check For E-Prime&lt;/button&gt;&lt;/div&gt;&lt;!--page_footer--&gt;&lt;/body&gt;&lt;/html&gt;
+200
+&lt;html&gt;&lt;head&gt;    &lt;!--meta_data--&gt;    &lt;!--css_styles--&gt;    &lt;title&gt;Eprimer - e-prime checking tool&lt;/title&gt;    &lt;link href=&quot;eprimer.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;    &lt;script src=&quot;eprime.js&quot;&gt;&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;!--page_header--&gt;&lt;div class=&apos;listpageintro&apos;&gt;    &lt;h1&gt;E-Primer an e-prime checking tool&lt;/h1&gt;    &lt;p&gt;Do you want to write without using the verb &quot;to be&quot;?&lt;/p&gt;    &lt;p&gt;Do you want to master &lt;a target=&quot;_blank&quot; rel=&quot;nofollow&quot; href=&quot;http://en.wikipedia.org/wiki/E-Prime&quot;&gt;e-prime&lt;/a&gt;?&lt;/p&gt;    &lt;p&gt;Use our online tool to check your writing.&lt;/p&gt;&lt;/div&gt;&lt;div id=&quot;app&quot;&gt;    &lt;div id=&quot;statistics&quot;&gt;        &lt;ul&gt;            &lt;li&gt; Word Count: &lt;span id=&quot;wordCount&quot;&gt;&lt;/span&gt;&lt;/li&gt;            &lt;li&gt; Discouraged Words: &lt;span id=&quot;discouragedWordCount&quot;&gt;&lt;/span&gt;&lt;/li&gt;            &lt;li&gt; Possible Violations: &lt;span id=&quot;possibleViolationCount&quot;&gt;&lt;/span&gt;&lt;/li&gt;        &lt;/ul&gt;    &lt;/div&gt;    &lt;div id=&quot;eprimeoutput&quot; class=&quot;eprime_text&quot;&gt;&lt;/div&gt;    &lt;label for=&quot;inputtext&quot;&gt;Text: &lt;/label&gt;    &lt;br/&gt;    &lt;textarea id=&quot;inputtext&quot; rows=&quot;5&quot; cols=&quot;60&quot;&gt;&lt;/textarea&gt;    &lt;br/&gt;    &lt;button id=&quot;CheckForEPrimeButton&quot; onclick=&apos;processInputText();&apos;&gt;Check For E-Prime&lt;/button&gt;&lt;/div&gt;&lt;!--page_footer--&gt;&lt;/body&gt;&lt;/html&gt;
+200
+
+</system-out>
+  </testcase>
+</testsuite>

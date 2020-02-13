@@ -1,0 +1,5 @@
+integration\sparkprocess\server\SeleniumTestPagesSparkStarter.class
+integration\sparkprocess\PageRoutingsExistForLocalExecutionTest.class
+integration\sparkprocess\server\BasicConnectionTests.class
+integration\sparkprocess\http\BasicHttp.class
+integration\sparkprocess\PageRoutingsExistForAppsTest.class

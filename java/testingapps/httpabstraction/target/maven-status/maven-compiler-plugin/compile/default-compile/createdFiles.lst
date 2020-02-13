@@ -1,0 +1,4 @@
+uk\co\compendiumdev\http\HttpRequestDetails.class
+uk\co\compendiumdev\http\HttpMessageSender.class
+uk\co\compendiumdev\http\HttpResponse.class
+uk\co\compendiumdev\http\HttpRequestSender.class

@@ -1,0 +1,11 @@
+com\javafortesters\pulp\domain\DataDeletionTest.class
+com\javafortesters\pulp\domain\DataReaderTest.class
+com\javafortesters\pulp\domain\FaqTest.class
+com\javafortesters\pulp\domain\DataPopulationTest.class
+com\javafortesters\pulp\html\gui\AlertSearchPageTest.class
+com\javafortesters\pulp\html\templates\MyTemplateTest.class
+com\javafortesters\pulp\domain\DataReportingTest.class
+com\javafortesters\pulp\domain\AppEndPointTest.class
+com\javafortesters\pulp\domain\BasicDomainObjectsTest.class
+com\javafortesters\pulp\domain\FilterDataTest.class
+com\javafortesters\pulp\domain\ToDoListTest.class
